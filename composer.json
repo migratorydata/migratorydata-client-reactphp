@@ -1,0 +1,24 @@
+{
+    "name": "migratorydata/migratorydata-client-reactphp",
+    "type": "library",
+    "description": "MigratoryData Client API for React PHP",
+    "keywords": ["websocket", "messaging", "publish-subscribe", "real-time"],
+    "homepage": "https://github.com/migratorydata/migratorydata-client-reactphp",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Migratory Data Systems",
+            "email": "support@migratorydata.com",
+            "homepage": "http://migratorydata.com/",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "react/event-loop": "1.1.1",
+        "react/socket": "1.4"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
