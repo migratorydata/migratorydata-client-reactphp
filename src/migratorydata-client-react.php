@@ -2208,7 +2208,7 @@ class Version
     // NodeJS - 08
     // Javascript-Browser - 09
     // Android - 10
-	const VERSION = 607001;
+	const VERSION = 6;
 }
 class mj
 {
